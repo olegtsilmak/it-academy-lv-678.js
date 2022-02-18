@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+</head>
+<body>
+    <!-- Task 1 -->
+    <script>
+        alert("Oleg Tsilmak");
+    </script>
+
+    <!-- Task 2 -->
+    <script src="task-1.js"></script>
+
+    <!-- Task 3 -->
+    <script>
+        let userName;
+        let userIsMarriage;
+        userName = "Leonid";
+        userIsMarriage = true;
+        document.write("Name: " + userName, "; ", "Status: " + userIsMarriage + "<br>");
+        
+        userName = userIsMarriage;
+        document.write("Name: " + userName, "; ", "Status: " + userIsMarriage);    
+    </script>
+
+    <!-- Task 4 -->
+    <script>
+        let city = {
+            name: "Lviv",
+            population: 800000,
+            unesco: true,
+            transport: undefined,
+            subway: null,
+        }
+        console.log(city);
+    </script>
+
+    <!-- Task 5 -->
+    <script>
+        let isAdult = confirm("Are you adult?");
+        console.log(isAdult);
+    </script>
+
+    <!-- Task 6 -->
+    <script src="task-6.js"></script>
+
+    <!-- Task 7 -->
+    <p>
+    <script>
+        let userLogin = prompt("Enter your login");
+        let userEmail = prompt("Enter your Email");
+        let userPassword = prompt("Enter your password");
+        document.write("Please verify your data:" + "<br>" + "login - " + userLogin, "<br>" + "email - " + userEmail, "<br>" + "password - " + userPassword);        
+    </script>
+    </p>
+
+    <!-- Task 8 -->
+    <p>
+        <script>
+            let secondInMinute = 60;
+            let secondsInHour = secondInMinute*60;
+            document.write("In one hour: " + secondsInHour + " seconds" + "<br>");
+
+            let secondsInDay = secondsInHour*24;
+            document.write("In one day: " + secondsInDay + " seconds" +"<br>");
+
+            let secondsInMonth = secondsInDay*30;
+            document.write("In one month: " + secondsInMonth + " seconds");
+        </script>
+    </p>
+</body>
+</html>
